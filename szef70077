@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<title>szef70077</title>
+		<meta name="author" content="szef70077"/>
+		<meta name="description" content="siemka, jestem szef70077"/>
+		<style>
+			html
+			{
+				font-size: 16px;
+			}
+			
+			body
+			{
+				margin: 0px;
+				font-family: 'Open Sans', sans-serif;
+				color: #303030;
+			}
+			
+			#main
+			{
+				box-sizing: border-box;
+				max-width: 580px;
+				min-height: 100vh;
+				padding: 20px;
+				margin: auto;
+			}
+			
+			#profile-picture-container
+			{
+				width: 128px;
+				height: 128px;
+				margin: auto;
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			
+			#profile-picture
+			{
+				width: 100%;
+			}
+			
+			h1
+			{
+				margin: 20px 0px;
+				text-align: center;
+				font-size: 1.5rem;
+			}
+			
+			h2
+			{
+				margin: 20px 0px;
+				text-align: center;
+				font-size: 1rem;
+			}
+			
+			h2 a
+			{
+				text-decoration: none;
+				outline: none;
+				color: #303030;
+			}
+			
+			h2 a:focus
+			{
+				text-decoration: underline;
+			}
+			
+			.button
+			{
+				display: block;
+				box-sizing: border-box;
+				max-width: 500px;
+				margin: 20px auto;
+				padding: 20px;
+				border-radius: 28px;
+				background: #303030;
+				color: #ffffff;
+				text-decoration: none;
+				text-align: center;
+				text-transform: uppercase;
+				transition: 0.5s;
+			}
+			
+			.button:hover
+			{
+				max-width: 540px;
+			}
+			
+			.button:focus
+			{
+				max-width: 540px;
+				outline: none;
+			}
+			
+			#footer
+			{
+				text-align: center;
+			}
+			
+			/*zmiana koloru zaznaczania tekstu*/
+			::selection
+			{
+				color: #ffffff;
+				background: #303030;
+			}
+			
+			/*ukrycie paska przewijania*/
+			::-webkit-scrollbar
+			{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<div id="profile-picture-container">
+					<img id="profile-picture" src="https://i.imgur.com/K27djdL.jpg" alt="szef70077"/>
+				</div>
+				<h1>Jan Pietruszka</h1>
+				<h2>siemka, jestem szef70077 oraz zajmuje się roślinami i nauką, jeśli chcesz się ze mną szybko skontaktować to zapraszam tutaj <a href="t.me/szef70077" title="napisz do mnie na telegramie">t.me/szef70077</a>
+			</div>
+			<div id="content">
+				<a class="button" href="https://twitter.com/szef70077" target="_blank">twitter</a>
+				<a class="button" href="https://www.instagram.com/szef70077" target="_blank">instagram</a>
+				<a class="button" href="https://www.youtube.com/szef70077" target="_blank">youtube</a>
+				<a class="button" href="https://discord.com/invite/szef70077" target="_blank">discord</a>
+				<a class="button" href="https://www.tiktok.com/szef70077" target="_blank">tiktok</a>
+				<a class="button" href="https://www.reddit.com/user/szef70077" target="_blank">reddit</a>
+				<a class="button" href="https://github.com/szef70077" target="_blank">github</a>
+				<a class="button" href="https://kick.com/szef70077" target="_blank">kick</a>
+				<a class="button" href="https://www.twitch.tv/szef70077" target="_blank">twitch</a>
+			</div>
+			<div id="footer">
+				strona wykonana przez szef70077
+			</div>
+		</div>
+	</body>
+</html>
